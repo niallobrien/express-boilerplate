@@ -1,4 +1,4 @@
 {
-  "directory": "public/components",
+  "directory": "assets/components",
   "json": "bower.json"
 }

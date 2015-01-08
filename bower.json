@@ -1,6 +1,14 @@
 {
   "name": "express",
   "version": "0.0.1",
+  "description": "Boilerplate for Express, Jade, Stylus & Gulp",
+  "authors": [
+    "Niall O'Brien <me@niallobrien.me>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.3"
+  },
   "ignore": [
     "**/.*",
     "node_modules",

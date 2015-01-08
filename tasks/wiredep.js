@@ -9,8 +9,9 @@ var wiredep = require('wiredep').stream;
 gulp.task('wiredep', function () {
   gulp.src(config.wiredep_file)
     .pipe(wiredep({
-      directory: 'assets/lib',
+      directory: './assets/components',
       ignorePath: '',
       exclude: []
-    })).pipe(gulp.dest(config.wiredep_dest));
+    }))
+    .pipe(gulp.dest(config.wiredep_dest));
 });

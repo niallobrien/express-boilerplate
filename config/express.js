@@ -23,6 +23,11 @@ module.exports = function(app, config) {
   app.use(express.static(config.root + '/public'));
   app.use(methodOverride());
 
+
+  // Mount Bower components
+  app.use(express.static(config.root + '/bower_components'));
+
+
   var controllers = glob.sync(config.root + '/app/controllers/*.js');
   controllers.forEach(function (controller) {
     require(controller)(app);

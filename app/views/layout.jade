@@ -6,7 +6,12 @@ html(lang='en')
     title= title
     block css
       link(rel='stylesheet', href='/assets/styles/app.css')
-    block js
-      script(src='http://localhost:35729/livereload.js')
   body
     block content
+
+    block js
+      script(src='/assets/scripts/app.bundle.js')
+      
+    // bower:js
+    script(src='../../assets/components/jquery/dist/jquery.js')
+    // endbower

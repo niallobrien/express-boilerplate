@@ -26,7 +26,7 @@ var config = {
   js_watch: ['assets/scripts/modules/*.js', 'assets/scripts/app.js'], // what files to watch to trigger the scripts task
 
   wiredep_file: './app/views/layout.jade', // looks through given file(s) for bower comments
-  wiredep_dest: './public/views/layout.jade' // where to spit out the wiredep'd file(s)
+  wiredep_dest: './app/views' // where to spit out the wiredep'd file(s)
 
 };
 

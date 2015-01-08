@@ -1,3 +1,7 @@
+/*jshint node:true*/
+
+'use strict';
+
 var gulp = require('gulp');
 
-gulp.task('default', ['views']);
+gulp.task('default', ['watch']);

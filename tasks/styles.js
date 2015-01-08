@@ -18,7 +18,7 @@ console.log(config.styles_entry_file);
 gulp.task('styles', function () {
     gulp.src(config.styles_entry_file)
     	.pipe(stylus({error: true, use: [nib()]}))
-	    .pipe(autoprefixer('last 2 versions'))
+	    // .pipe(autoprefixer('last 2 versions'))
 	    .pipe(gulp.dest(config.css_dest_dir))
 	    .pipe(reload({stream:true}))
 	    .pipe(size())

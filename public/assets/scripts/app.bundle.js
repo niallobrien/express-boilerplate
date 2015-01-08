@@ -6,7 +6,7 @@ $(document).ready(function() {
 });
 
 
-//# sourceURL=/Users/nobrien/dev/express/assets/scripts/app.js
+//# sourceURL=/Users/niallobrien/dev/express-boilerplate/assets/scripts/app.js
 },{"./modules/hello":2}],2:[function(require,module,exports){
 "use strict";
 'use strict';
@@ -29,7 +29,7 @@ var me = new Person('Niall', "O'Brien");
 log('Hello, ' + me.toString() + ' from hello.js!');
 
 
-//# sourceURL=/Users/nobrien/dev/express/assets/scripts/modules/hello.js
+//# sourceURL=/Users/niallobrien/dev/express-boilerplate/assets/scripts/modules/hello.js
 },{}],3:[function(require,module,exports){
 (function (process){
 // Copyright Joyent, Inc. and other Node contributors.

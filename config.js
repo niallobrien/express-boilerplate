@@ -8,12 +8,12 @@
 
 var config = {
   // Used for BrowserSync
-  local_url: 'express.dev',
+  local_url: 'localhost:3000',
 
   // Assets
   bower_file: 'bower.json',
 
-  // workfiles_watch: '**/*.php', // ExpressionEngine files
+  workfiles_watch: '**/*.jade', // Jade templates
 
   styles_entry_file: 'assets/styles/app.styl',
   styles_watch: 'assets/styles/**/*.styl', // what files to watch to trigger the styles task

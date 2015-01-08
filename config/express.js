@@ -25,7 +25,6 @@ module.exports = function(app, config) {
 
   // Mount Bower components
   app.use('/assets/components',  express.static(config.root + '/assets/components'));
-  // app.use('./assets1/components/',  express.static(config.root + 'assets2/components'));
 
 
   var controllers = glob.sync(config.root + '/app/controllers/*.js');

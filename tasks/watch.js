@@ -5,6 +5,7 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
+var notify = require('gulp-notify');
 var config = require('../config');
 
 gulp.task('watch', ['serve'], function () {
